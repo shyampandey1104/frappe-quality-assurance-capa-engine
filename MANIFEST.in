@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include quality_capa *.css
+recursive-include quality_capa *.csv
+recursive-include quality_capa *.html
+recursive-include quality_capa *.ico
+recursive-include quality_capa *.js
+recursive-include quality_capa *.json
+recursive-include quality_capa *.md
+recursive-include quality_capa *.png
+recursive-include quality_capa *.py
+recursive-include quality_capa *.svg
+recursive-include quality_capa *.txt
+recursive-exclude quality_capa *.pyc
